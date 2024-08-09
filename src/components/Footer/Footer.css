@@ -1,0 +1,194 @@
+
+/************************** Footer css start **************************/
+.footer-bg {
+    background-color: #000;
+    padding: 40px 0 0;
+}
+
+    .footer-bg .upper-text h5 {
+        font-size: 17px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 28px;
+    }
+
+    .footer-bg .search-fleid .search-input {
+        background-color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 15px;
+    }
+
+    .footer-bg .search-fleid .input-group-text {
+        background-color: #1967d3;
+        color: #fff;
+        padding: 15px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .footer-bg .search-fleid .search-input::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+
+        font-weight: 500;
+        font-size: 12px;
+        color: #828282;
+        padding: 0 0 0 10px;
+    }
+
+    .footer-bg .search-fleid .search-input::-moz-placeholder {
+        /* Firefox 19+ */
+
+        font-weight: 500;
+        font-size: 12px;
+        color: #828282;
+        padding: 0 0 0 10px;
+    }
+
+    .footer-bg .search-fleid .search-input:-ms-input-placeholder {
+        /* IE 10+ */
+
+        font-weight: 500;
+        font-size: 12px;
+        color: #828282;
+        padding: 0 0 0 10px;
+    }
+
+    .footer-bg .search-fleid .search-input:-moz-placeholder {
+        /* Firefox 18- */
+
+        font-weight: 500;
+        font-size: 12px;
+        color: #828282;
+        padding: 0 0 0 10px;
+    }
+
+    .footer-bg .footer-upper {
+        border-bottom: 2px solid #c4cdde;
+        padding: 0 0 30px 0;
+    }
+
+    .footer-bg .footer-middle {
+        border-bottom: 1px solid #ffffff;
+        padding: 40px 0 60px;
+    }
+
+        .footer-bg .footer-middle .para {
+            font-weight: 500;
+            font-size: 14px;
+            color: #ffffff;
+            margin-top: 20px;
+            padding: 0 7px 7px 0;
+            line-height: 24px;
+        }
+
+        .footer-bg .footer-middle .para-2 {
+            font-weight: 500;
+            font-size: 14px;
+            color: #fff;
+        }
+
+        .footer-bg .footer-middle h4 {
+            font-weight: 700;
+            font-size: 18px;
+            color: #fff;
+            /* margin-top: 60px; */
+            text-transform: uppercase;
+        }
+
+        .footer-bg .footer-middle .footer-list {
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+
+            .footer-bg .footer-middle .footer-list li {
+                margin-bottom: 6px;
+            }
+
+                .footer-bg .footer-middle .footer-list li a {
+                    font-weight: 500;
+                    font-size: 15px;
+                    color: #fff;
+                    transition: 0.5s;
+                    text-decoration: none;
+                }
+
+                    .footer-bg .footer-middle .footer-list li a i {
+                        font-weight: 700;
+                        margin-right: 6px;
+                        font-size: 15px;
+                    }
+
+                    .footer-bg .footer-middle .footer-list li a:hover {
+                        transform: translateY(-5px);
+                        color: #40A2D8 !important;
+                    }
+
+    .footer-bg .footer-lower {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+        .footer-bg .footer-lower .para {
+            font-weight: 500;
+            font-size: 13px;
+            color: #fff;
+        }
+
+    .footer-bg .footer-middle .email-field .email-input {
+        background-color: transparent;
+        border: 2px solid #fff;
+        border-radius: 0;
+        padding: 12px 15px;
+        margin-top: 8px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .footer-bg .footer-middle .email-field .email-btn {
+        background-color: #ffffff;
+        border-radius: 0;
+        padding: 10px 32px;
+        border: 2px solid #ffffff;
+        color: #322081;
+        font-size: 14px;
+        font-weight: 600;
+        transition: 0.5s;
+        width: 100%;
+        margin-top: 8px;
+    }
+
+        .footer-bg .footer-middle .email-field .email-btn:hover {
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            color: #ffffff;
+        }
+
+.footer-logo {
+    width: 250px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.footer-logo:hover {
+    box-shadow: 0 0 25px lightblue; 
+}
+
+.footer-bg .footer-lower .para a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    font-size: 20px; 
+  }
+
+  .footer-bg .footer-lower .para a:hover {
+    color: #2980b9;
+  }
+
+/************************** Footer css end **************************/

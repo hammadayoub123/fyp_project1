@@ -1,0 +1,99 @@
+/************************** Card Section css end **************************/
+.our-info {
+    padding: 100px 0 30px;
+    position: relative;
+}
+
+    .our-info::before {
+        content: '';
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 70%;
+        width: 100%;
+    }
+
+    .our-info .sec-title {
+        position: relative;
+        z-index: 9999;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+        .our-info .sec-title h3 {
+            font-size: 20px;
+            color: #ffffff;
+            padding: 0 0 10px 0;
+            font-weight: 600;
+        }
+
+        .our-info .sec-title h2 {
+            font-size: 45px;
+            color: #fff;
+            line-height: 53px;
+            padding-bottom: 10px;
+            font-weight: 600;
+        }
+
+    .our-info .fleet-box {
+        position: relative;
+        background: #fff;
+        padding: 30px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10% 10% 0 0;
+        text-align: center;
+    }
+
+        .our-info .fleet-box .img-box {
+            padding: 0 10px;
+            margin-bottom: 20px;
+        }
+
+        .our-info .fleet-box h6 {
+            font-weight: 600;
+            font-size: 22px;
+            padding-bottom: 5px;
+            color: #40A2D8;
+        }
+
+        .our-info .fleet-box .para {
+            font-weight: 300;
+            font-size: 16px;
+            padding-bottom: 5px;
+        }
+
+        .our-info .fleet-box ul {
+            margin-top: 9px;
+        }
+
+            .our-info .fleet-box ul li {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 0;
+                font-weight: 300;
+                border-bottom: 1px solid #000000;
+            }
+
+        .our-info .fleet-box .book-fleet {
+            background-color: #40A2D8;
+            border: 1px solid lightblue;
+            padding: 10px 20px;
+            color: #000 !important;
+            transition: 0.5s;
+            margin-top: 20px;
+            width: 100%;
+            transition: 0.5s;
+        }
+
+            .our-info .fleet-box .book-fleet:hover {
+                background: transparent;
+                border: 1px solid #000000;
+                color: #000000 !important;
+            }
+
+/************************** Card Section css end **************************/

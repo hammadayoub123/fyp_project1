@@ -1,0 +1,256 @@
+/************************** Header css **************************/
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999;
+    background-color: transparent;
+    transition: 0.5s;
+    background: transparent;
+}
+
+    .main-header.scroll {
+        background: #fff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+        .main-header.scroll .upper-list {
+            margin-top: -36px;
+        }
+        .main-header.scroll .logo {
+            /* width: 190px;        */
+            max-width: 70%;
+            height: auto;
+         
+        }
+
+        .main-header.scroll .navbar {
+            margin-top: 0px;
+            box-shadow: unset;
+        }
+
+.main-header .upper-list {
+     
+    /* background: #fdb913; */
+    background: #40A2D8;
+    padding: 6px 0;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+.main-header .upper-list .align-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .main-header .upper-list .box-1 .info-list {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .main-header .upper-list .box-1 .info-list li {
+            padding: 0 10px;
+        }
+
+        .main-header .upper-list .box-1 .info-list li span {
+                color: #000;
+                font-size: 16px;
+                padding-right: 7px;
+            }
+
+            .main-header .upper-list .box-1 .info-list li a {
+                color: #000;
+                font-size: 15px;
+                font-weight: 400;
+                text-decoration: none;
+            }
+
+            .main-header .upper-list .box-2 .social-list {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .main-header .upper-list .box-2 .social-list li span {
+            color: #000;
+            font-size: 16px;
+            padding-right: 7px;
+        }
+
+        .main-header .upper-list .box-2 .social-list li {
+            padding: 0 12px;
+        }
+
+        .main-header .upper-list .box-2 .social-list li a {
+                color: #000;
+                font-size: 16px;
+                font-weight: 400;
+                text-decoration: none;
+            }
+
+.main-header .logo {
+    width: 150px;
+    transition: 0.5s;
+}
+
+.main-header .nav-item {
+    padding: 0 12px;
+}
+
+    .main-header .nav-item .nav-link {
+        font-size: 16px;
+        font-weight: 500 !important;
+        color: #000000 !important;
+        transition: 0.5s;
+    }
+
+        .main-header .nav-item .nav-link:hover {       
+            transform: translateY(-5px);
+            color: #40A2D8 !important;
+        }
+
+.main-header .book-btn {
+    background: lightblue;
+    border: 2px solid #40A2D8;
+    padding: 10px 20px;
+    color: #000 !important;
+    transition: 0.5s;
+    box-shadow: rgba(100, 100, 111, 0.15) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+    .main-header .book-btn:hover {
+        background-color: #40A2D8;
+        border: 2px solid #000000;
+        color: #000000 !important;
+    }
+    
+    .nav-link.book-btn .wallet-address  {
+        margin: 0;
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 150px;
+        color: #333; /* Darker text color for better readability */
+        font-family: Arial, sans-serif;
+      }
+
+.navbar {
+    background: #fff;
+    padding: 14px 40px;
+    border-radius: 30px;
+    margin-top: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dropdown-item:hover{
+    background-color: lightblue;
+}
+
+
+
+
+/* popup */
+.main-header .popup-overlay{
+        position: fixed;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 460px;
+        height: 430px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+        background-color: #f5f7fa;
+        border-radius: 15px; 
+        display: flex;
+        backdrop-filter: blur(24px);
+    }
+
+.main-header .popup {
+    position: absolute;
+    border-radius: 15px; 
+    padding: 30px;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    
+}
+
+.main-header .popup p{
+    top: 8px;
+    right: 25px; 
+    font-size: 16px;
+    color: #323f4b;
+}
+
+.main-header .close { 
+    top: 8px;
+    right: 25px; 
+    float: right !important;
+    cursor: pointer;
+}
+
+.main-header .close:hover{
+    color: #40A2D8;
+}
+
+.main-header .popup-bottom {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main-header .popup-bottom .popup-img {
+    float: left; 
+    margin-top: 60px;
+    transform: translateX(38%);
+}
+
+.main-header .popup-bottom .title {
+    font-size: 24px;
+    color: #323f4b;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.main-header .popup-bottom .description{
+    font-size: 16px;
+    margin-top: 12px;
+    transform: translateX(22%);
+    color: #616e7c;
+}
+
+.main-header .popup-bottom .connect-wallet-btn{
+    background: #40A2D8;
+    border: 2px solid #40A2D8;
+    color: #ffffff !important;
+    padding: 11px;
+    width: 120%;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: rgba(100, 100, 111, 0.15) 0px 7px 29px 0px;
+    border-radius: 12px;
+    font-size: 0.98rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.main-header .popup-bottom .connect-wallet-btn:hover{
+    background-color: #40A2D8;
+    filter: blur(0.3px);
+    border: 2px solid #000000;
+    color: #000000 !important;
+}
+
+
+
+/************************** Header css end **************************/
+

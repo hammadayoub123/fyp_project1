@@ -1,0 +1,149 @@
+/************************** Blogs css start **************************/
+
+.blog-section {
+    padding: 50px 0 10px;
+}
+
+.blog-section .blog-title h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    padding: 10px 0 5px;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.blog-section .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Left column styles */
+.blog-section .leftcolumn {   
+    float: left;
+    width: 100%; 
+}
+
+.blog-section .leftcolumn .card {
+    color: #40A2D8;
+    border: 2px solid #40A2D8;
+}
+
+.blog-section .leftcolumn .card h2 {
+    color: #40A2D8;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.blog-section .leftcolumn .card h5 {
+    color: #000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 50px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.blog-section .leftcolumn .card .param {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 20px;
+    padding: 0 7px 7px 0;
+    line-height: 26px;
+}
+
+.blog-section .blog-banner {
+    width: 100%;
+    padding: 20px;
+    height: auto; 
+}
+
+/* Right column styles */
+.blog-section .rightcolumn {
+    float: left;
+    width: 100%; 
+    padding-left: 0; 
+}
+
+.blog-section .rightcolumn .columnimg{
+    width: 100%;
+    padding: 20px;
+    height: auto; 
+}
+
+.blog-section .rightcolumn .card {
+    margin-top: 20px;
+    border: 2px solid #40A2D8;
+}
+
+.blog-section .rightcolumn .card h3{
+    margin-bottom: 25px;
+    font-style: bold;
+    font-weight: bolder !important;
+}
+
+.blog-section .rightcolumn .card .h7 {
+    font-size: 14px;
+    color: #000000;
+    padding: 0px 5px 5px 0;
+    font-style: bold !important;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.blog-section .rightcolumn .card .param2 {
+    font-weight: 500;
+    font-size: 13px;
+    color: #000000;
+    margin-top: 20px;
+    padding: 0 7px 7px 0;
+    line-height: 20px;
+}
+
+.blog-section .rightcolumn .card .postimg{
+    width: 100%;
+    height: auto; 
+    padding: 10px;
+}
+
+.blog-section .rightcolumn .card .postimg-container {
+    position: relative;
+    display: inline-block;
+}
+
+.blog-section .rightcolumn .card .postimg-container .read-more-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #40A2D8;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+.blog-section .rightcolumn .card .postimg-container:hover .read-more-btn {
+    opacity: 1;
+}
+
+/* Responsive styles using media queries */
+@media only screen and (min-width: 768px) {
+    .blog-section .leftcolumn {
+        width: 75%; 
+    }
+
+    .blog-section .rightcolumn {
+        width: 25%;  
+        padding-left: 20px;
+    }
+}
+
+/************************** Blogs css end **************************/

@@ -1,0 +1,90 @@
+
+/************************** Features css start **************************/
+.app-section {
+    padding: 40px 0;
+}
+
+.app-section .app-title h2{
+        font-size: 36px;
+        font-weight: 600;
+        color: #000;
+        padding: 10px 0 5px;
+        position: relative;
+        width: fit-content;
+        margin: 0 auto;
+}
+    .app-section .row {
+        display: flex;
+        align-items: center;
+    }
+
+    .app-section .content-box h3 {
+        color: #40A2D8;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .app-section .content-box h2 {
+        color: #000;
+        font-size: 36px;
+        letter-spacing: 0;
+        line-height: 50px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+        font-weight: 600;
+    }
+    .app-section .content-box h2 span{
+        color: #40A2D8;
+        font-style: bold;
+    }
+
+    .app-section .content-box .para {
+        color: #444;
+        font-size: 18px;
+        letter-spacing: 0.15px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+
+    .app-section .content-box ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+        .app-section .content-box ul li {
+            width: 36%;
+            background: #40A2D8;
+            margin: 5px 10px 5px 0;
+            padding: 13px 0;
+            text-align: center;
+            line-height: 22px;
+            font-size: 16px;
+            border-radius: 7px;
+            color: #000;
+            cursor: pointer;
+        }
+
+    .app-section .content-box .app-btn {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 20px;
+    }
+
+        .app-section .content-box .app-btn .downlaod-app {
+            width: 230px;
+            margin: 0 10px 0 0;
+        }
+
+    .app-section .img-box {
+        text-align: center;
+    }
+
+/************************** Features css ends **************************/

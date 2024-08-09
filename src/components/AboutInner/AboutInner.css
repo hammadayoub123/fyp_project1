@@ -1,0 +1,65 @@
+/************************** About css start *****************************/
+.sec-about {
+    padding: 70px 0;
+}
+
+    .sec-about .text-box {
+        background: #fff;
+        padding: 50px 40px;
+        border-radius: 20px;
+        box-shadow: rgba(100, 100, 111, 0.15) 0px 7px 29px 0px;
+    }
+
+        .sec-about .text-box h3 {
+            font-size: 18px;
+            color: #40A2D8;
+            padding: 0 0 5px 0;
+            font-weight: 600;
+        }
+
+        .sec-about .text-box h2 {
+            font-size: 45px;
+            color: #000;
+            line-height: 48px;
+            padding-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .sec-about .text-box h4 {
+            font-size: 20px;
+            border-bottom: 4px solid #40A2D8;
+            width: fit-content;
+            padding: 10px 0 0;
+        }
+
+        .sec-about .text-box .para {
+            font-weight: 300;
+            padding: 7px 0;
+        }
+
+        .sec-about .text-box .dot-list {
+            padding: 15px 0 15px 40px;
+            list-style: disc;
+        }
+
+            .sec-about .text-box .dot-list li {
+                font-weight: 300;
+                padding: 3px 0;
+            }
+
+        .sec-about .text-box .para a {
+            font-weight: 500;
+            color: #000;
+        }
+
+        .sec-about .text-box .read-btn {
+            background-color: #40A2D8 !important;
+            border: 1px solid #40A2D8;
+            padding: 10px 20px;
+            color: #000 !important;
+            transition: 0.5s;
+            margin-top: 10px;
+            border-radius: 7px;
+        }
+
+/************************** About css end *****************************/

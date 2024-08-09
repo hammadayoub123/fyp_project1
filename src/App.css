@@ -1,0 +1,106 @@
+/************************** InnerBanner css start **************************/
+.inner-banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    z-index: 0;
+}
+
+.inner-banner::before {
+    content: '';
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+.inner-banner .content-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.inner-banner .content-box h2 {
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.inner-banner .content-box h1 {
+    font-family: Syne;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.inner-banner .para{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding-left:12px;
+    padding-right: 20px;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+.inner-banner .content-box ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.inner-banner .content-box ul li {
+    padding: 0 5px;
+}
+
+.inner-banner .content-box ul li a {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/************************** InnerBanner css end **************************/
+
+
+/************************** media-query **************************/
+
+@media only screen and (min-width: 1921px) and (max-width: 7368px) {
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+}
+
+@media only screen and (min-width: 1445px) and (max-width: 1599px) {
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1444px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+}
